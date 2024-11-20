@@ -34,9 +34,6 @@ SELECT * FROM retail_sales
 WHERE sale_date IS NULL
 
 SELECT * FROM retail_sales
-WHERE sale_time IS NULL
-
-SELECT * FROM retail_sales
 WHERE 
     transaction_id IS NULL
     OR
