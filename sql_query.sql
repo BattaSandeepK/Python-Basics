@@ -7,11 +7,11 @@ CREATE TABLE retail_sales
             (
                 transaction_id INT PRIMARY KEY,	
                 sale_date DATE,	 
-                customer_id	INT,
-                gender	VARCHAR(15),
-                age	INT,
+                customer_id INT,
+                gender VARCHAR(15),
+                age INT,
                 category VARCHAR(15),	
-                quantity	INT,
+                quantity INT,
                 price_per_unit FLOAT,	
                 total_sale FLOAT
             );
